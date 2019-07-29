@@ -1,6 +1,6 @@
 module.exports = {
-  title: '网站标题',
-  description: '网站描述',
+  title: '生而为人',
+  description: '认真生活，快乐生活',
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
@@ -14,7 +14,7 @@ module.exports = {
     repo: 'https://github.com/yanjun0501/blog',
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
     // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
-    repoLabel: '查看源码',
+    // repoLabel: '查看源码',
 
     // 以下为可选的编辑链接选项
 
@@ -31,19 +31,24 @@ module.exports = {
     sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
     lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间
     nav:[
-      { text: '前端算法', link: '/algorithm/' }, // 内部链接 以docs为根目录
-      { text: '博客', link: 'http://obkoro1.com/' }, // 外部链接
-      // 下拉列表
-      {
-        text: 'GitHub',
+      { text: '生活', link: '/life/' },
+      { 
+        text: '乐趣', 
         items: [
-          { text: 'GitHub地址', link: 'https://github.com/OBKoro1' },
-          {
-            text: '算法仓库',
-            link: 'https://github.com/OBKoro1/Brush_algorithm'
-          }
-        ]
-      }        
+          { text: '音乐', link: '/my/music/' },
+          { text: '道文化', link: '/my/dao/' },
+          { text: '二次元', link: '/my/acg/' },
+        ],
+      },
+      { 
+        text: '技术',
+        items: [
+          { text: '前端', link: '/technology/fe/' },
+          { text: 'Node', link: '/technology/node/' },
+          { text: '后端(No)', link: '/technology/be/' },
+        ],
+      },
+      { text: 'About', link: '/about/' },     
     ],
     // sidebar: 'auto'
     sidebar:{
