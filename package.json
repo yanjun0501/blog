@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "yanjun's blog",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "keywords": [
+    "yanjun",
+    "yanjun0501",
+    "ryuk"
+  ],
+  "author": "yanjun0501",
+  "license": "ISC"
+}
