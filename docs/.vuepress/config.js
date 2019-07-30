@@ -1,5 +1,5 @@
 module.exports = {
-  title: '生而为人',
+  title: '伶歌丨生而为人',
   description: '认真生活，快乐生活',
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
@@ -10,6 +10,7 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
   themeConfig: {
+    footer: '锁窗前月明色, 雕阑外夜气清', // 会显示在博客的 footer 中
     // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
     repo: 'https://github.com/yanjun0501/blog',
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
