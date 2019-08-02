@@ -15,14 +15,14 @@
       ```
       其中 sh "$NVS_HOME/nvs.sh" install 一行命令会自动将 nvs 设置到你的 ~/.bashrc, ~/.profile, ~/.bash_profile, 或者 ~/.zshrc 各种文件中去。
   + #### 设置 nvs 镜像
-    - #### [https://github.com/cnpm/nvs](https://github.com/cnpm/nvs) 已经默认设置了去 [https://npm.taobao.org/mirrors/node/](https://npm.taobao.org/mirrors/node/) 下载了。
+    #### [https://github.com/cnpm/nvs](https://github.com/cnpm/nvs) 已经默认设置了去 [https://npm.taobao.org/mirrors/node/](https://npm.taobao.org/mirrors/node/) 下载了。
 
     ```shell
     nvs add lates #使用此命令安装最新版本
     ```
 
   + #### 让 bash 自动 use latest 版本
-    - #### 默认的情况下，每次运行 nvs 只会在当前 bash 生效，如果你希望新开启的 bash 都能自动 use 一个最新版本的 node，那么你需要在 ~/.bashrc 配置文件最后一行加上 nvs use latest。可以通过下面一行命令快速添加
+    #### 默认的情况下，每次运行 nvs 只会在当前 bash 生效，如果你希望新开启的 bash 都能自动 use 一个最新版本的 node，那么你需要在 ~/.bashrc 配置文件最后一行加上 nvs use latest。可以通过下面一行命令快速添加
     ```shell
     echo "nvs use latest" >> ~/.bashrc
     ```

@@ -1,9 +1,10 @@
 module.exports = {
-  title: '伶歌丨生而为人',
+  plugins: ['@vuepress/back-to-top'],
+  title: '伶歌',
   description: '认真生活，快乐生活',
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
+    ['link', { rel: 'icon', href: '/icon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
   ],
   base: '/', // 这是部署到github相关的配置 下面会讲
   markdown: {
@@ -32,6 +33,7 @@ module.exports = {
     sidebarDepth: 0, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
     lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间
     nav:[
+      { text: '关于我', link: '/about' },
       { text: '生活', link: '/life/' },
       { 
         text: '乐趣', 
@@ -48,8 +50,8 @@ module.exports = {
           { text: 'Node', link: '/technology/node/' },
           { text: '后端(No)', link: '/technology/be/' },
         ],
-      },
-      { text: 'About', link: '/about' },     
+      }, 
+      { text: '联系我', link: '/contact' },    
     ],
     // sidebar: 'auto',
     displayAllHeaders: true,
@@ -65,17 +67,17 @@ module.exports = {
       ],
       '/my/acg/': [
         '',
-        'test'
       ],
       '/technology/fe/': [
         '',
+        'Github 因更换邮箱或账号丢失 commit 解决办法'
       ],
       '/technology/be/': [
         '',
       ],
       '/technology/node/': [
         '',
-        '1'
+        'Node.js 开发环境搭建'
       ],
       // fallback
       '/': [
