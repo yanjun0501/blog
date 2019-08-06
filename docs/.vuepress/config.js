@@ -1,7 +1,7 @@
 module.exports = {
   plugins: ['@vuepress/back-to-top'],
-  title: '伶歌',
-  description: '认真生活，快乐生活',
+  title: '聆歌',
+  description: '快乐生活，认真生活',
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
     ['link', { rel: 'icon', href: '/icon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
@@ -58,6 +58,7 @@ module.exports = {
     sidebar: {
       '/life/': [
         '',     /* /foo/ */
+        '由晕倒产生的反思'
       ],
       '/my/music/': [
         '',
@@ -70,7 +71,9 @@ module.exports = {
       ],
       '/technology/fe/': [
         '',
-        'Github 因更换邮箱或账号丢失 commit 解决办法'
+        'Github 因更换邮箱或账号丢失 commit 解决办法',
+        '2Home —— 提醒下班小猪手',
+        '2Alive —— 小巧视频站'
       ],
       '/technology/be/': [
         '',
