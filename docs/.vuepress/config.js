@@ -73,7 +73,8 @@ module.exports = {
         '',
         'Github 因更换邮箱或账号丢失 commit 解决办法',
         '2Home —— 提醒下班小猪手',
-        '2Alive —— 小巧视频站'
+        '2Alive —— 小巧视频站',
+        'Chrome v72+ 出现Provisional headers are shown解决办法'
       ],
       '/technology/be/': [
         '',
