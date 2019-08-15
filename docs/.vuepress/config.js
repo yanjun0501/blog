@@ -1,5 +1,16 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: yanjun
+ * @Date: 2019-08-01 19:56:11
+ * @LastEditors: yanjun
+ * @LastEditTime: 2019-08-15 14:50:19
+ */
 module.exports = {
-  plugins: ['@vuepress/back-to-top'],
+  plugins: [
+    '@vuepress/back-to-top',
+    "vuepress-plugin-cat",
+  ],
   title: '聆歌',
   description: '快乐生活，认真生活',
   // 注入到当前页面的 HTML <head> 中的标签
