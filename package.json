@@ -2,6 +2,7 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "yanjun's blog",
+  "repository": "https://github.com/yanjun0501/blog",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -18,11 +19,8 @@
   ],
   "author": "yanjun0501",
   "license": "ISC",
-  "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
-    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1"
-  },
   "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
     "vuepress-plugin-cat": "^1.0.3"
   }
 }
