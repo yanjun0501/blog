@@ -4,7 +4,7 @@
  * @Author: yanjun
  * @Date: 2019-08-01 19:56:11
  * @LastEditors: yanjun
- * @LastEditTime: 2019-08-15 14:50:19
+ * @LastEditTime: 2019-08-16 10:35:24
  */
 module.exports = {
   plugins: [
@@ -85,7 +85,8 @@ module.exports = {
         'Github 因更换邮箱或账号丢失 commit 解决办法',
         '2Home —— 提醒下班小猪手',
         '2Alive —— 小巧视频站',
-        'Chrome v72+ 出现Provisional headers are shown解决办法'
+        'Chrome v72+ 出现Provisional headers are shown解决办法',
+        'VuePress插件 —— 让你的博客也拥有Live2D~'
       ],
       '/technology/be/': [
         '',
