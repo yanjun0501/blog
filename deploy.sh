@@ -1,3 +1,11 @@
+### 
+# @Descripttion: 
+ # @version: 
+ # @Author: yanjun
+ # @Date: 2019-08-01 19:56:11
+ # @LastEditors: yanjun
+ # @LastEditTime: 2019-08-19 10:10:19
+ ###
 #!/usr/bin/env sh
 
 # 确保脚本抛出遇到的错误
@@ -13,6 +21,8 @@ cd docs/.vuepress/dist
 echo 'yanjun-forever.cn' > CNAME
 
 git init
+git config user.name "yanjun0501"
+git config user.email "i@yanjun-forever.cn"
 git add .
 git commit -m 'deploy: update blog'
 
