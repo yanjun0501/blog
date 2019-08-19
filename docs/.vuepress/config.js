@@ -4,12 +4,12 @@
  * @Author: yanjun
  * @Date: 2019-08-01 19:56:11
  * @LastEditors: yanjun
- * @LastEditTime: 2019-08-16 10:35:24
+ * @LastEditTime: 2019-08-19 09:58:23
  */
 module.exports = {
   plugins: [
     '@vuepress/back-to-top',
-    "vuepress-plugin-cat",
+    "vuepress-plugin-live2d",
   ],
   title: '聆歌',
   description: '快乐生活，认真生活',
