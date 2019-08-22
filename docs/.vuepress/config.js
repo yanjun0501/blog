@@ -82,17 +82,49 @@ module.exports = {
       ],
       '/my/dao/': [
         '',
+        {
+          title: '道经',
+          collapsable: false,
+          children: [
+            '道经/',
+            '道经/一'
+          ]
+        },
+        {
+          title: '德经',
+          collapsable: false,
+          children: [
+            '德经/',
+            '德经/一'
+          ]
+        },
+      ],
+      '/my/dao/道经/': [
+        '',
+        '一'
       ],
       '/my/acg/': [
         '',
       ],
       '/technology/fe/': [
         '',
-        'Github 因更换邮箱或账号丢失 commit 解决办法',
-        '2Home —— 提醒下班小猪手',
-        '2Alive —— 小巧视频站',
-        'Chrome v72+ 出现Provisional headers are shown解决办法',
-        'VuePress插件 —— 让你的博客也拥有Live2D~'
+        {
+          title: '冷门坑',
+          collapsable: false,
+          children: [
+            'problems/Github 因更换邮箱或账号丢失 commit 解决办法',
+            'problems/Chrome v72+ 出现Provisional headers are shown解决办法'
+          ]
+        },
+        {
+          title: '玩具',
+          collapsable: false,
+          children: [
+            'tools/2Home —— 提醒下班小猪手',
+            'tools/2Alive —— 小巧视频站',
+            'tools/VuePress插件 —— 让你的博客也拥有Live2D~'
+          ]
+        },
       ],
       '/technology/be/': [
         '',
