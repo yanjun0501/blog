@@ -9,7 +9,13 @@
 module.exports = {
   plugins: [
     '@vuepress/back-to-top',
-    "vuepress-plugin-live2d",
+    [
+      "vuepress-plugin-live2d",
+      {
+        modelName: '',
+        mobileShow: ''
+      }
+    ]
   ],
   title: '聆歌',
   description: '快乐生活，认真生活',

@@ -8,8 +8,14 @@
 
   ```
   #### 然后在'/docs/.vuepress/config.js'里引入
-  ```json
+  ```javascript
     plugins: [
-      "vuepress-plugin-live2d",
-    ],
+      [
+        "vuepress-plugin-live2d",
+        {
+          "modelName": "" // 可选值8个类型（z16，Epsilon2.1，izumi，koharu，shizuku，miku, hijiki, tororo
+          "mobileShow": ""
+        }
+      ]
+    ]
   ```

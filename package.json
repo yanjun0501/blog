@@ -21,6 +21,6 @@
   "license": "ISC",
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
-    "vuepress-plugin-live2d": "^0.0.1"
+    "vuepress-plugin-live2d": "^0.0.3"
   }
 }
