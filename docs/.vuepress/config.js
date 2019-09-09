@@ -15,6 +15,12 @@ module.exports = {
         modelName: '',
         mobileShow: ''
       }
+    ],
+    [
+      '@vuepress/register-components',
+      {
+        componentsDir: './components'
+      }
     ]
   ],
   title: '聆歌',
