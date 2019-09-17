@@ -211,6 +211,13 @@ module.exports = {
       '/technology/fe/': [
         '',
         {
+          title: '温故知新',
+          collapsable: false,
+          children: [
+            'knowledge/CSS3动画基础使用',
+          ]
+        },
+        {
           title: '冷门坑',
           collapsable: false,
           children: [
