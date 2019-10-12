@@ -13,7 +13,8 @@ module.exports = {
       "vuepress-plugin-live2d",
       {
         modelName: '',
-        mobileShow: ''
+        mobileShow: '',
+        position: 'left',
       }
     ],
     [
