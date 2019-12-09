@@ -216,6 +216,7 @@ module.exports = {
           collapsable: false,
           children: [
             'knowledge/CSS3动画基础使用',
+            'knowledge/初探SSR——NuxtJS使用心得',
           ]
         },
         {
